@@ -23,6 +23,7 @@ namespace CSM.GUI
     {
         public MainWindow()
         {
+
             InitializeComponent();
         }
     }

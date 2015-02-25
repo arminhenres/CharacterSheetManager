@@ -4,8 +4,15 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Menu>
+            <MenuItem Header="Datei">
+                <MenuItem Header="Neu"/>
+                <MenuItem Header="Öffnen"/>
+                <MenuItem Header="Speichern"/>
+            </MenuItem>
+        </Menu>
         <Expander Height="200">
-            <Button Content="TestBUTTON" Height="30" Width="100"/>
+            
         </Expander>
     </Grid>
 </Controls:MetroWindow>
