@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAS.Core
 {
-    public class Class1
+    public class StartUp
     {
     }
 }
