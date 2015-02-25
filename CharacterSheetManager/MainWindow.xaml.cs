@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CharacterSheetManager.GUI
+namespace CSM.GUI
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
