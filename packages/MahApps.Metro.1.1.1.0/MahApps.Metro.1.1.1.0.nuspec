@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MahApps.Metro</id>
+    <version>1.1.1.0</version>
+    <title>MahApps.Metro</title>
+    <authors>Paul Jenkins; Jake Ginnivan; Brendan Forster (shiftkey); Alex Mitchell (Amrykid); Dennis Daume (flagbug); Jan Karger (punker76)</authors>
+    <owners>Paul Jenkins; Jake Ginnivan; Brendan Forster (shiftkey); Alex Mitchell (Amrykid); Dennis Daume (flagbug); Jan Karger (punker76)</owners>
+    <licenseUrl>http://www.opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/MahApps/MahApps.Metro</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/MahApps/MahApps.Metro/master/mahapps.metro.logo2.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The goal of MahApps.Metro is to allow devs to quickly and easily cobble together a "Metro" or "Modern UI" for their WPF4+ apps, with minimal effort.</description>
+    <summary>The goal of MahApps.Metro is to allow devs to quickly and easily cobble together a "Metro" or "Modern UI" for their WPF4+ apps, with minimal effort.</summary>
+    <releaseNotes># Notes
+
+This is a bug fix release of MahApps.Metro.
+
+# Bugfixes
+
+- Fixed non working ShowIconOnTitleBar property if it is changed by XAML or in code behind #1817 (1e2c54e)
+- Fixed default value for `UpgradeSettings (IWindowPlacementSettings)` (509bd77)</releaseNotes>
+    <tags>WPF UI Metro ModernUI XAML Toolkit Library .NET</tags>
+  </metadata>
+</package>
