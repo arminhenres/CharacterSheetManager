@@ -7,7 +7,7 @@
     <ProjectGuid>{6E4C4574-F044-4239-BDB9-D36D4671C9E4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CharacterSheetManager</RootNamespace>
+    <RootNamespace>CSM.GUI</RootNamespace>
     <AssemblyName>CharacterSheetManager</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -59,6 +59,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="View\Page1Uc.xaml.cs">
+      <DependentUpon>Page1Uc.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -74,6 +78,10 @@
     <Page Include="Resources\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Page1Uc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +119,17 @@
   <ItemGroup>
     <Resource Include="Resources\Entypo-license.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSM.Core\CSM.Core.csproj">
+      <Project>{c8877337-d2f5-4e59-9f71-c773eb69b637}</Project>
+      <Name>CSM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSM.OperationBed\CSM.OperationBed.csproj">
+      <Project>{b4cfee3d-8188-4854-aba5-4705ac44be96}</Project>
+      <Name>CSM.OperationBed</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

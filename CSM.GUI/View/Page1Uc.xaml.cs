@@ -1,5 +1,4 @@
-﻿using MahApps.Metro.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,14 +16,13 @@ using System.Windows.Shapes;
 namespace CSM.GUI
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für UserControl1.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class Page1Uc : UserControl
     {
-        public MainWindow()
+        public Page1Uc()
         {
             InitializeComponent();
-            var x = new object();
         }
     }
 }
