@@ -1,0 +1,8 @@
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\GlobalStyles.baml
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\CSM.GUI.Ressources_MarkupCompile.cache
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\CSM.GUI.Ressources.g.resources
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\bin\Debug\CSM.GUI.Ressources.dll
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\bin\Debug\CSM.GUI.Ressources.pdb
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\CSM.GUI.Ressources.csprojResolveAssemblyReference.cache
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\CSM.GUI.Ressources.dll
+C:\Users\Armin\documents\visual studio 2013\Projects\CharacterSheetManager\CSM.GUI.Ressources\obj\Debug\CSM.GUI.Ressources.pdb
