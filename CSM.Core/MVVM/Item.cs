@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CAS.Core
+namespace CSM.Core
 {
-    public class Item : NotifyPropertyChanged
+    public class IItem : NotifyPropertyChanged
     {
         private object value;
 
@@ -17,10 +17,5 @@ namespace CAS.Core
             set { this.value = value; OnPropertyChanged("Value"); }
         }
 
-        
-
-
-
-        
     }
 }

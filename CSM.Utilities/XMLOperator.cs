@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.IO;
-using CSM.OperationBed.DataTypes;
+using CSM.Core;
+
 
 namespace CSM.Utilites
 {

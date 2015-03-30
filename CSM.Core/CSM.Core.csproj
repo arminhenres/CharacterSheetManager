@@ -39,13 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTypes\AcItem.cs" />
+    <Compile Include="DataTypes\Character.cs" />
+    <Compile Include="DataTypes\ClassAttribute.cs" />
+    <Compile Include="DataTypes\ClassSkill.cs" />
+    <Compile Include="DataTypes\Dice.cs" />
+    <Compile Include="DataTypes\Feat.cs" />
+    <Compile Include="DataTypes\Item.cs" />
+    <Compile Include="DataTypes\SavingThrow.cs" />
+    <Compile Include="DataTypes\SpecialAbility.cs" />
+    <Compile Include="DataTypes\Spell.cs" />
+    <Compile Include="DataTypes\Weapon.cs" />
     <Compile Include="Commands\ActionCommand.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="NotifyPropertyChanged.cs" />
-    <Compile Include="StartUp.cs" />
+    <Compile Include="References\IFile.cs" />
+    <Compile Include="References\IProvider.cs" />
+    <Compile Include="MVVM\Item.cs" />
+    <Compile Include="MVVM\NotifyPropertyChanged.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="MVVM\ViewModelBase.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

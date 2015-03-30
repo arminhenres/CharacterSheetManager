@@ -1,4 +1,5 @@
-﻿using CAS.Core;
+﻿
+using CSM.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,13 +12,20 @@ namespace CSM.GUI
     {
         public MainViewModel()
         {
-            xy = "Hallo, das Binding funktioniert";
+            Write = new ActionCommand(WriteXML) { Content ="Read" };
         }
 
-        public string xy
+        private void WriteXML()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ActionCommand Write
         {
             get;
             set;
         }
+
+        
     }
 }

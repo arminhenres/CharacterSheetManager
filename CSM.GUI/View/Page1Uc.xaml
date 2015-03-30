@@ -3,69 +3,109 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
              mc:Ignorable="d" 
-             d:DesignHeight="800" d:DesignWidth="800">
-
+             d:DesignHeight="800" d:DesignWidth="900">
 
     <StackPanel>
-      <GroupBox Header="Attributes">
+        <Expander Header="General">
+            <Expander.Resources>
+                <DataTemplate x:Key="ExpanderHeaderTemplate">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding}" />
+                        <Button Style="{DynamicResource FlatButton}" Margin="15,0,0,0" Foreground="White"  BorderThickness="1" BorderBrush="White" Background="#576573" Width="50" Content="Edit" />
+                    </StackPanel>
+                </DataTemplate>
 
-          
-            <StackPanel Orientation="Horizontal">
-                <GroupBox Header="Strength">
-                    <StackPanel >
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                <GroupBox Header="Dexterity">
-                    <StackPanel >
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                <GroupBox Header="Constitution">
-                    <StackPanel >
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                <GroupBox Header="Intelligence">
-                    <StackPanel >
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                <GroupBox Header="Wisdom">
-                    <StackPanel >
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                <GroupBox Header="Charisma">
-                    <StackPanel>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                        <TextBox  Width="50"/>
-                    </StackPanel>
-                </GroupBox>
-                
-                <TextBlock Text="Penis"/>
+                <Style TargetType="{x:Type Expander}" BasedOn="{StaticResource MetroExpander}">
+                    <Setter Property="HeaderTemplate" Value="{StaticResource ExpanderHeaderTemplate}"/>
+                </Style>
+
+            </Expander.Resources>
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type TextBox}">
+                        <Setter Property="Margin" Value="15,0,15,0" />
+                        <Setter Property="Height" Value="20"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                    </Style>
+                    <Style TargetType="{x:Type GroupBox}" BasedOn="{StaticResource MetroGroupBox}">
+                        <Setter Property="Width" Value="120"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </StackPanel.Resources>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <GroupBox Header="Name" Width="300">
+                        <TextBox Text="Name"/>
+                    </GroupBox>
+                    <GroupBox Header="Alignment" Width="100">
+                        <TextBox Text="Alignment"/>
+                    </GroupBox>
+                    <GroupBox Header="Player" Width="300">
+                        <TextBox Text="Player"/>
+                    </GroupBox>
+                    
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <GroupBox Header="Race" Width="125">
+                        <TextBox Text="Race"/>
+                    </GroupBox>
+                    <GroupBox Header="Class" Width="125">
+                        <TextBox Text="Class"/>
+                    </GroupBox>
+                    <GroupBox Header="Level" Width="80">
+                        <TextBox Text="Level"/>
+                    </GroupBox>
+                    <GroupBox Header="Deity" Width="250">
+                        <TextBox Text="Deity"/>
+                    </GroupBox>
+                    <GroupBox Header="Homeland" Width="120">
+                        <TextBox Text="Homeland"/>
+                    </GroupBox>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <GroupBox Header="Size">
+                        <TextBox Text="Size"/>
+                    </GroupBox>
+                    <GroupBox Header="Gender">
+                        <TextBox Text="Gender"/>
+                    </GroupBox>
+                    <GroupBox Header="Age">
+                        <TextBox Text="Age"/>
+                    </GroupBox>
+                    <GroupBox Header="Height">
+                        <TextBox Text="Height"/>
+                    </GroupBox>
+                    <GroupBox Header="Weight">
+                        <TextBox Text="Weight"/>
+                    </GroupBox>
+                    <GroupBox Header="Hair">
+                        <TextBox Text="Hair"/>
+                    </GroupBox>
+                    <GroupBox Header="Eyes">
+                        <TextBox Text="Eyes"/>
+                    </GroupBox>
+                </StackPanel>
             </StackPanel>
-                
 
 
-                
-            
-        </GroupBox>  
+        </Expander>
+        <Expander Header="GridPanelTEst">
+
+        </Expander>
+
+
     </StackPanel>
 
-        
 
-    
+
+
+
+
 </UserControl>

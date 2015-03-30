@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace CAS.Core.Commands
+namespace CSM.Core
 {
-    public class ActionCommand : Item, ICommand
+    public class ActionCommand : IItem, ICommand
     {
         #region Fields
         /// <summary>
@@ -40,6 +40,12 @@ namespace CAS.Core.Commands
             {
                 _action();
             }
+        }
+
+        public string Content
+        {
+            get;
+            set;
         }
     }
 }

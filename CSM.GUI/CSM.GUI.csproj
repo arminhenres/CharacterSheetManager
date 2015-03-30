@@ -124,10 +124,6 @@
       <Project>{c8877337-d2f5-4e59-9f71-c773eb69b637}</Project>
       <Name>CSM.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CSM.OperationBed\CSM.OperationBed.csproj">
-      <Project>{b4cfee3d-8188-4854-aba5-4705ac44be96}</Project>
-      <Name>CSM.OperationBed</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

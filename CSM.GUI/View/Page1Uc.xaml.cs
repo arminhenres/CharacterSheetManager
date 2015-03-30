@@ -20,6 +20,7 @@ namespace CSM.GUI
     /// </summary>
     public partial class Page1Uc : UserControl
     {
+
         public Page1Uc()
         {
             InitializeComponent();

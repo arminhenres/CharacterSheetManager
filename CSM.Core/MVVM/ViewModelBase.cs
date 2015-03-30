@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CAS.Core
+namespace CSM.Core
 {
     public class ViewModelBase : NotifyPropertyChanged
     {
